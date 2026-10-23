@@ -17,7 +17,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip -o MedRate_GitHub_Upload.zip -d .
+          unzip -o MedRate_GitHub_Upload_FIXED.zip -d .
           test -f app/build.gradle.kts
 
       - uses: actions/setup-java@v4
